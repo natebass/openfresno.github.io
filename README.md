@@ -1,8 +1,6 @@
 # Open Fresno Website
 
-# Code for Fresno Website
-
-Our website @ http://codeforfresno.org
+Our website @ https://openfresno.github.io/
 
 ## Want to help out?
 
