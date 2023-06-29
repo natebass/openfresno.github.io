@@ -1,4 +1,4 @@
 source 'https://rubygems.org'
-gem 'jekyll', '~> 3.8.5'
-gem 'github-pages', '~> 201'
-gem 'html-proofer', :git => 'https://github.com/gjtorikian/html-proofer.git', :tag => "v3.12.0"
+gem 'github-pages'
+# Installing Webrick gem is a workaround to use Jekyll on Ruby 3. See https://talk.jekyllrb.com/t/load-error-cannot-load-such-file-webrick/5417/14
+gem "webrick", "~> 1.8"
