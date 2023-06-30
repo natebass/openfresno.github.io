@@ -138,8 +138,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
-    background-color: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.5) url(/images/intro-bg.jpg) no-repeat scroll bottom center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -259,8 +258,7 @@ a
     width: 100%;
     padding: 50px 0;
     color: #fff;
-    background: url(/img/downloads-bg.jpg) no-repeat center center scroll;
-    background-color: {{ site.color.primary-dark }};
+    background: #000000 url(/images/logo2.png) no-repeat scroll center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
