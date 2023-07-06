@@ -1,29 +1,21 @@
-[![Build Status](https://travis-ci.org/CodeforFresno/codeforfresno.github.io.svg)](https://travis-ci.org/CodeforFresno/codeforfresno.github.io)
-[![Stories in Ready](https://badge.waffle.io/codeforfresno/codeforfresno.org.png?label=ready&title=Ready)](https://waffle.io/codeforfresno/codeforfresno.org)
+# Open Fresno Website
 
-# Code for Fresno Website
-
-Our website @ http://codeforfresno.org
+Our website @ https://openfresno.github.io/
 
 ## Want to help out?
 
 - Clone this repo.
 
-There are two ways to install this website on your machine and help out with
-development. If you're concerned with polluting your environment with
-application libraries and have Virtualbox / Vagrant installed, then use
-Vagrant instructions, otherwise, use the Local instructions.
+### Docker
 
-### Vagrant
-
-If you're on your development machine and want to use vagrant to isolate your
-dependencies/workspace, we've included a Vagrantfile to help you get started.
+If you're on your development machine and want to use Docker to isolate your
+dependencies/workspace, we've included a Dockerfile to help you get started.
 
 Run the following command:
 
-`vagrant up`
+`docker compose up`
 
-Once the vagrant instance is up, open your browser to:
+Once the Docker container is up, open your browser to:
 
 `open http://127.0.0.1:4000`
 
